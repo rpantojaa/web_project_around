@@ -18,6 +18,6 @@ Foram utilizadas as tecnologias HTML, CSS com técnicas de alinhamento e layout 
 
 ##Link para a Pagina
 
-https://crislaineandrade.github.io/web_project_around/
+https://rpantojaa.github.io/web_project_around/
 
 
