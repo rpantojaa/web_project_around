@@ -1,15 +1,19 @@
 ##Descrição
 
-O Web Project Homeland é uma página responsiva contendo os seguintes formatos de tela: 1280px, 1024px, 768px, 544px e 320px. Sendo 1024px 544px considerados breakpoints para não obter uma quebra brusca nas transições dos tamanhos
+O Web Project Around é uma página responsiva para todos os formatos de tela.
 
 ##Tecnologias Utilizadas
 
-Foram utilizadas as tecnologias de HTML e CSS, com os técnicas de alinhamento e layout CSS como flexbox e o uso de media queries para a adequação da responsividade.
+Foram utilizadas as tecnologias HTML, CSS com técnicas de alinhamento e layout com display grid e flexbox, uso de media queries para adequação da responsividade e Javascript para conectar com o DOM e obter a interatividade com botões e formulário popup
 
-##Plano de Melhoria
+##Imagens do Projeto
 
-Uma boa prática de implementação seria ter uma opção para icluir outras images, dando a experiência para o usuário olhar outras fotos
+(imagens/Screenshot 2024-11-07 at 1.09.40 PM.png)
+
+(images/Screenshot 2024-11-07 at 1.09.47 PM.png)
+
+(images/Screenshot 2024-11-07 at 1.09.53 PM.png)
 
 ##Link para a Pagina
 
-https://rpantojaa.github.io/web_project_homeland/
+https://rpantojaa.github.io/web_project_around/
