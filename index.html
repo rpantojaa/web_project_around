@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Around the U.S</title>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+  <div class="page overlay">
+    <header class="header">
+      <img class="header__logo" src="./images/logo_header.png" alt="logo">
+      <div class="header__line"></div>
+    </header>
+
+    <main class="content">
+      <section class="profile page-section">
+
+        <img class="profile__avatar" src="./images/avatar.jpg" alt="image of a man">
+
+        <div class="profile__info">
+          <h1 class="profile__user">Jacques Cousteau</h1>
+
+          <button type="button" class="profile__edit-button">
+            <img class="profile__image-edit-button" src="./images/edit_button.png" alt="edit button" >
+          </button >
+
+          <p class="profile__paragraph">Explorador</p>
+        </div>
+
+        <button type="button" class="profile__add-button">
+          <img class="profile__image-add-button" src="./images/add__button.png" alt="add button">
+        </button>
+      </section>
+
+      <section class="elements">
+
+        <ul class="elements__cards" id="elementsCards">
+        </ul>
+      </section>
+
+      <section class="popup">
+
+        <div class="popup__container">
+
+          <button type="button" class="popup__close-button">
+
+          </button>
+
+          <h2 class="popup__title">Editar perfil</h2>
+
+          <form class="popup__form" name="formProfile" novalidate>
+          <fieldset class="popup__fieldset">
+
+            <input type="text" class="popup__name" id="name" name="name" placeholder="Nome" required minlength="2" maxlength="40">
+
+            <span class="name-error popup__input_type_error"></span>
+
+            <input type="text" class="popup__ocupation" id="ocupation" name="ocupation" placeholder="Sobre mim" required minlength="2" maxlength="200">
+            <span class="ocupation-error popup__input_type_error"></span>
+
+            <button type="submit" class="popup__save-button form__submit">Salvar</button>
+          </fieldset>
+        </form>
+
+
+        </div>
+
+
+
+      </section>
+
+       <section class="popup-edit ">
+
+        <div class="popup__container">
+
+          <button type="button" class=" popup-edit__close-button">
+          </button>
+
+          <h2 class="popup-edit__title">Novo local</h2>
+
+          <form class="popup-edit__form">
+
+            <input type="text" class="popup-edit__name" id="edit-name" placeholder="Título" required minlength="2" maxlength="30">
+            <span class="edit-name-error popup__input_type_error"></span>
+
+            <input type="url" class="popup-edit__link" id="link" placeholder="Link de imagem" required>
+            <span class="link-error popup__input_type_error"></span>
+
+            <button type="submit" class=" popup-edit__create-button form__submit">Criar</button>
+
+          </form>
+
+        </div>
+
+
+      </section>
+
+      <section class="popup-image">
+        <div class="popup-image__content">
+          <img class="popup-image__img" src="" alt="Imagem ampliada">
+          <button class="popup-image__close-button"></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__paragraph">© 2024 Around The U.S.</p>
+    </footer>
+
+    <template id="card-template">
+
+      <li class="elements__card">
+
+        <img class="elements__delete-button"
+        src="./images/Trash.png" alt="image of the delete button">
+
+        <img class="elements__image" src="" alt="image of a view"/>
+
+        <div class="elements__card-content">
+
+          <p class="elements__name-card"></p>
+
+
+          <img class="elements__button-image-like" src="./images/button_heart.png" alt="image of the heart button">
+
+        </div>
+      </li>
+    </template>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="validate.js"></script>
+</body>
+</html>
