@@ -1,45 +1,32 @@
-/* TELA 1280 PX */
-
 .header {
-  max-width: 880px;
-  margin: auto;
-
-}
-
-.header__logo {
-  padding: 45px 0 41px;
-  color: #FFFFFF;
-  max-width: 173px;
-
-}
-
-.header__line {
-  margin: 0 0 40px;
-  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
-  max-width: 880px;
-}
-
-
-
-/* TELA 320PX */
-
-@media screen and (max-width:320px){
-  .header {
-    max-width: 320px;
-
+    margin: 0 auto;
+    max-width: 860px;
+    width: 100%;
   }
-
-  .header__logo {
-    padding: 28px 0 32px;
-    color: #FFFFFF;
-    max-width: 126px;
-
+  
+  .header__title {
+    font-size: 38px;
+    display: flex;
+    justify-content: space-between;
+    max-width: fit-content;
   }
-
+  
+  .header__accent {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  
   .header__line {
-    margin: 0 0 42px;
-    max-width: 320px;
+    background-color: #545454;
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    padding: 0;
   }
-
-
-}
+  
+  @media screen and (max-width: 720px) {
+    .header__title {
+      font-size: 28px;
+      text-indent: 25px;
+    }
+  }
