@@ -1,19 +1,11 @@
-##Descrição
+# Tripleten web_project_around
 
-O Web Project Around é uma página responsiva para todos os formatos de tela.
+1 - Tripleten Around Page - Sprint 7 - Renato Falchi Correia de Oliveira
 
-##Tecnologias Utilizadas
+2 - Projeto destinado ao desenvolvimento de um website responsivo utilizando as tecnologias de medía query, medidas proporcionais e grids.
+O projeto foi dimensionado para atuar com telas em larguras de 1280px, 1024px e 800px, até um minímo de 320px.
 
-Foram utilizadas as tecnologias HTML, CSS com técnicas de alinhamento e layout com display grid e flexbox, uso de media queries para adequação da responsividade e Javascript para conectar com o DOM e obter a interatividade com botões e formulário popup
+3 - Foi utilizado JavaScript para implantar a funcionalidade do botão editar perfil, cujo ao ser executado abre o popup do formulário para alteração do nome e profissão apresentados no perfil.
 
-##Imagens do Projeto
-
-(imagens/Screenshot 2024-11-07 at 1.09.40 PM.png)
-
-(images/Screenshot 2024-11-07 at 1.09.47 PM.png)
-
-(images/Screenshot 2024-11-07 at 1.09.53 PM.png)
-
-##Link para a Pagina
-
-https://rpantojaa.github.io/web_project_around/
+3 - Confira o resultado:
+https://renatofalchi.github.io/web_project_around/
